@@ -13,19 +13,32 @@ body {
   line-height: 1.5;
 }
 
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 24px;
+  padding: 16px;
+}
+
 .gallery {
   display: flex;
   gap: 10px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 100px 156px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .gallery li {
   flex: 1 1 auto;
-  max-width: 200px;
+  max-width: 360px;
+  min-height: 300px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
