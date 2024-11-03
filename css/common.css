@@ -70,15 +70,15 @@ ol {
   flex-wrap: wrap;
 }
 
-.gallery li {
-  width: 360px;
-  height: 300px;
+.gallery-item {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.gallery img {
+.gallery-img {
   width: 100%;
   display: block;
+  width: 360px;
+  height: 300px;
 }
 
 #name-input {
