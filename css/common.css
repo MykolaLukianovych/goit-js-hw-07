@@ -68,6 +68,7 @@ ol {
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
+  max-width: 1440px;
 }
 
 .gallery-item {

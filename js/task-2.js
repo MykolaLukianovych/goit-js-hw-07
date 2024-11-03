@@ -28,20 +28,21 @@ alt: "White and Black Long Fur Cat",
 
 const gallery = document.querySelector('.gallery');
 
-
-images.forEach(image => {
+const addPhoto = images.map(({ url, alt }) => {
     const listItem = document.createElement('li');
     const img = document.createElement('img');
     
     listItem.classList.add("gallery-item");
     img.classList.add("gallery-img");
 
-    img.src = image.url;
-    img.alt = image.alt;
+    img.src = url;
+    img.alt = alt;
 
     listItem.append(img);
-    gallery.append(listItem);
+    return listItem;
 })
+gallery.append(...addPhoto);
+
 
 
 
