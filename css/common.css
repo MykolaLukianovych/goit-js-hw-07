@@ -86,6 +86,7 @@ ol {
   margin-bottom: 16px;
   width: 360px;
   height: 40px;
+  outline: none;
 }
 
 .login-form {
@@ -106,6 +107,7 @@ ol {
   width: 360px;
   height: 40px;
   border-radius: 4px;
+  outline: none;
 }
 
 .login-form button {
@@ -150,6 +152,7 @@ ol {
   height: 40px;
   border: 1px solid #808080;
   border-radius: 8px;
+  outline: none;
 }
 
 #controls button {
@@ -163,4 +166,10 @@ ol {
 
 #controls button:last-child {
   background-color: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
 }
